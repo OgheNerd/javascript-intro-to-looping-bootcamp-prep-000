@@ -6,9 +6,10 @@ function forLoop(array) {
   return array
 }
 
-function whileLoop(n) {
-  
-  while (n > 0) {
-    return --n
-  }
+function whileLoop() {
+	let n = 100;
+    
+    while(n > 0) {
+    	console.log(--n)
+    }
 }
