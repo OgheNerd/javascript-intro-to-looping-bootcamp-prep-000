@@ -15,11 +15,11 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
  function maybeTrue(){
-    array.slice(0, 1);
+    return array
   }
 
   do {
-    console.log(array)
+    array.slice(0, 1);
   } while (array.length > 0 && maybeTrue());
 
 }
