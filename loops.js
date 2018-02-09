@@ -19,6 +19,6 @@ function doWhileLoop(array) {
   }
 
   do {
-    console.log(array)
+array.slice(0, 1);
   } while (array.length > 0 && maybeTrue());
 }
