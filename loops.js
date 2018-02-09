@@ -14,13 +14,5 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
- function maybeTrue(){
-    return array
-  }
-
-  do {
-    array.slice(0, 1);
-  } while (array.length > 0 && maybeTrue());
-
-  return array
+ 
 }
