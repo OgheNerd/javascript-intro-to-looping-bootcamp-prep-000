@@ -18,7 +18,8 @@ function doWhileLoop(array) {
     array.slice(0, 1);
   }
 
-  do {
-array.slice(0, 1);
-  } while (array.length > 0 && maybeTrue());
+  // do {
+  //   array.slice(0, 1);
+  // } while (array.length > 0 && maybeTrue());
+  
 }
