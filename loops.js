@@ -12,3 +12,11 @@ function whileLoop(n) {
     }
     return (n === 0) ? 'done' : 'not done';
 }
+
+function doWhileLoop(array) {
+  return array
+}
+
+do {
+  array.slice(0, 1);
+} while (doWhileLoop());
