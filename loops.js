@@ -19,7 +19,7 @@ function doWhileLoop(array) {
   }
 
   do {
-    array.slice(0, 1);
+    console.log(array)
   } while (array.length > 0 && maybeTrue());
 
 }
